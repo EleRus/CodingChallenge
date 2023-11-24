@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url("C:/Users/Elena/.atom/packages/emmet/Corso Gratuito/5° esercizio/background.jpg");
+  background-size: cover;
+}
+
+body > div {
+  margin-top: 70px;
+  margin-bottom: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 530px;
+  width: 850px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#logo {
+  width: 180px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  position: relative;
+  top: 50px;
+}
+
+.logo-text {
+  font-family: 'Quicksand', sans-serif;
+  color: lime;
+  font-size: 25px;
+  margin: auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 23px;
+}
+
+nav {
+  background-color: lime;
+  padding: 10px;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.monopattino {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-top: 15px;
+  margin-left: 60px;
+  font-size: 19px;
+}
+
+.testo {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.rettangolo {
+	width:230px;
+	height:23px;
+	background:#F4A460;
+  border-radius: 5px;
+}
+
+.rettangolo2 {
+	width:450px;
+	height:23px;
+	background:#35e935;
+  border-radius: 5px;
+}
+
+.rettangolo3 {
+	width:110px;
+	height:23px;
+	background:#ba4846;
+  border-radius: 5px;
+}
